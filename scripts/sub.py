@@ -4,7 +4,7 @@ import rospy
 from std_msgs.msg import Int32
 
 def cb(message):
-    rospy.loginfo(message.data*2)
+    print('{0}mile = {1}km'.format(message.data,message.data*1.6))
 
 if __name__ == '__main__':
     rospy.init_node('twice')
