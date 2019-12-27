@@ -7,6 +7,6 @@ pub = rospy.Publisher('number', Int32, queue_size=1)
 rate = rospy.Rate(10)
 n = 0
 while not rospy.is_shutdown():
-    n = int(raw_input())
+    n = int(raw_input('input mile:'))
     pub.publish(n)
     rate.sleep()
