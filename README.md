@@ -19,3 +19,7 @@ $ catkin_make
 `$ rosrun myros sub.py`
 ## YouTube
 https://www.youtube.com/watch?v=g-EkdhKf1Po
+
+
+## LICENSE  
+This repository is licensed under the GPLv3 license, see LICENSE.
