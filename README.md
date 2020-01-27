@@ -18,6 +18,7 @@ $ catkin_make
 端末３  
 `$ rosrun myros bmi.py`
 ## YouTube
+https://www.youtube.com/watch?v=DYvo__qwgD8
 
 
 
