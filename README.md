@@ -1,7 +1,7 @@
 # 2019ロボットシステム学 課題 2 
 # 概要  
-mileで入力された数字を㎞になおす  
-mileをPublishして、それをSubscribeしてkmに変換するパッケージ  
+体重と身長を入力してそこからBMIを出力するパッケージ  
+体重と身長をrostopicとしてパブリッシュして別ノードでサブスクライブして，BMIを算出してパブリッシュする
 ## 手法  
 ### インストール手順
 ```
@@ -14,11 +14,11 @@ $ catkin_make
 端末１  
 `$ roscore`  
 端末２  
-`$ rosrun myros number.py`  
+`$ rosrun myros weight_height.py`  
 端末３  
-`$ rosrun myros sub.py`
+`$ rosrun myros bmi.py`
 ## YouTube
-https://www.youtube.com/watch?v=g-EkdhKf1Po
+
 
 
 ## LICENSE  
