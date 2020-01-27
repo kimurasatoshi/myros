@@ -26,5 +26,5 @@ https://www.youtube.com/watch?v=DYvo__qwgD8
 This repository is licensed under the BSD-3-Clause license, see LICENSE.
 ## 一緒にやった人
 * 小関　隆司　https://github.com/KosekiTakashi  
-* 吉村　一樹　  
+* 吉村　一希　  
 * 小島　健　https://github.com/Takeshi-Kojima 
